@@ -1,8 +1,8 @@
 /*
  * pipeline input parameters
  */
-params.reads = "/workspace/gitpod/nf-training/data/ggal/gut_{1,2}.fq"
-params.transcriptome_file = "/workspace/gitpod/nf-training/data/ggal/transcriptome.fa"
+params.reads = "workspace/gitpod/nf-training/data/ggal/gut_{1,2}.fq"
+params.transcriptome_file = "workspace/gitpod/nf-training/data/ggal/transcriptome.fa"
 params.multiqc = "$projectDir/multiqc"
 params.outdir = "results"
 log.info """\
