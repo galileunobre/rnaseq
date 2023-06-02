@@ -1,8 +1,8 @@
 /*
  * pipeline input parameters
  */
-params.reads = "nf-training/data/ggal/gut_{1,2}.fq"
-params.transcriptome_file = "nf-training/data/ggal/transcriptome.fa"
+params.reads = "$projectDir/gut_{1,2}.fq"
+params.transcriptome_file = "$projectDir/transcriptome.fa"
 params.multiqc = "$projectDir/multiqc"
 params.outdir = "results"
 log.info """\
